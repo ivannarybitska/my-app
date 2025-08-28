@@ -9,3 +9,18 @@ body{
 .header{
     background-color: aqua;
 }
+
+.main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    column-gap: 20px;
+}
+
+form {
+    margin: 10px;
+    padding: 10px 25px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}

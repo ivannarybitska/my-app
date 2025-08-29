@@ -24,3 +24,9 @@ form {
     flex-direction: column;
     row-gap: 10px;
 }
+
+.userDiv{
+    background-color: brown;
+    margin: 10px;
+    padding: 10px;
+}

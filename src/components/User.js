@@ -13,7 +13,7 @@ class User extends React.Component {
     user = this.props.user;
  render() {
    return (
-   <div>
+   <div className='userDiv'>
         <MdDelete onClick={() => this.props.onDelete(this.user.id)}/>
         <FiEdit onClick={() => {
             this.setState({
